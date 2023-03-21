@@ -1,13 +1,29 @@
-Requirements:
-Operating System: Linux
-Required packages: bc, screen
+# Bash Monitoring
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This monitoring "system" is only for Linux!
+## Requirements
 
-Please make sure you have the crontabs installed for AutoRestart and AutoDatabaseClear
+To use Bash Monitoring System, you need to have the following requirements installed:
 
-AutoRestart:
++ Operating System: Linux
++ Required packages: bc, screen
+
+## Installation
+To install Bash Monitoring System, please make sure that you have crontabs installed for AutoRestart and AutoDatabaseClear. Follow the steps below to install:
+
+1.  Clone the repository:
+`git clone https://github.com/your-username/bash-monitoring.git`
+2. Navigate to the cloned directory: cd bash-monitoring
+`cd bash-monitoring`
+3. Set up crontabs for AutoRestart and AutoDatabaseClear using the following commands:
+```bash
 @reboot bash /monitor/runMonitoring.sh
-
-AutoClear:
 0 0 * * * bash /monitor/cleanDatabase.sh
+```
+
+## Usage
+Once the installation is complete, you can start using Bash Monitoring System. Run the following command to start monitoring your system:
+`bash /monitor/runMonitoring.sh`
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
