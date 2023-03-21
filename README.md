@@ -14,7 +14,7 @@ To use Bash Monitoring System, you need to have the following requirements insta
 To install Bash Monitoring System, please make sure that you have crontabs installed for AutoRestart and AutoDatabaseClear. Follow the steps below to install:
 
 1.  Clone the repository:
-`git clone https://github.com/your-username/bash-monitoring.git`
+`git clone https://github.com/DanielBecker715/Bash-Monitoring.git`
 2. Navigate to the cloned directory: cd bash-monitoring
 `cd bash-monitoring`
 3. Set up crontabs for AutoRestart and AutoDatabaseClear using the following commands:
