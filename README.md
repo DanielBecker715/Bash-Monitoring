@@ -1,6 +1,8 @@
 # Bash Monitoring
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Welcome to Bash Monitoring System, a lightweight monitoring solution for Linux. This project was developed as part of my vocational school project and I wanted to create something fun and useful at the same time.
+
 ## Requirements
 
 To use Bash Monitoring System, you need to have the following requirements installed:
